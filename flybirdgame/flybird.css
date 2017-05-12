@@ -1,0 +1,80 @@
+#wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 343px;
+	height: 480px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#begintitle {
+	position: absolute;
+	left: 60px;
+	top: 60px;
+}
+
+#beginbird {
+	position: absolute;
+	left: 200px;
+	top: 40px;
+}
+
+#start {
+	position: absolute;
+	top: 230px;
+	left: 130px;
+}
+
+#grass1 {
+	position: absolute;
+	top: 423px;
+	left: 0;
+	display: block;
+
+}
+#grass2 {
+	position: absolute;
+	top: 423px;
+	left: 343px;
+	display: block;
+}
+
+#score {
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	z-index: 1000;
+}
+
+#score div {
+	height: 40px;
+	width: 30px;
+	float: left;
+	background-image: url(images/0.jpg);
+	display: none;
+	
+}
+
+#gameover {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	text-align: center;
+	display: none;
+	z-index: 100;
+	width: 100%;
+}
+
+#gameover p {
+	width: 200px;
+	height: 80px;
+	margin: 20px auto;
+	padding: 2px;
+	line-height: 70px;
+	background-color: #166fd8;
+	border: 9px solid #004aa0;
+	border-radius: 7px;
+	font-size: 1.2em;
+	color: #dbf8fb;
+}
