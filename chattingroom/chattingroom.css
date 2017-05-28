@@ -1,0 +1,41 @@
+body,input,div,header,button {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #eee;
+}
+.frame {
+	margin: 0 auto;
+	width: 800px;
+	height: 500px;
+	border: 1px solid red;
+}
+.frame header {
+	text-align: center;
+}
+.frame .containner {
+	width: 700px;
+	height: 230px;
+	border: 1px solid red;
+	margin: 10px auto;
+}
+
+.frame #send {
+	margin: 10px 50px;
+}
+
+.frame #send input {
+	width: 400px;
+	height: 30px;
+	margin: 10px 0;
+}
+
+.frame #send button {
+	width: 100px;
+	height: 25px;
+}
