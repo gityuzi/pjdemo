@@ -22,7 +22,7 @@
 		position: absolute;
 		overflow: hidden;
 	}
-	.wrapper ul li img{
+	.wrapper ul li p{
 		display: block;
 		width: 100%;
 		height: 300px;
