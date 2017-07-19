@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner {
+    margin: 100px auto;
+    border: 5px solid #000;
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .img {
+    width: 5000px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.banner .img li {
+    float: left;
+    
+}
+
+.banner .img div {
+    width: 550px;
+    height: 300px;
+    color: red;
+}
+
+.banner .num {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+.banner .num li {
+    width: 10px;
+    height: 10px;
+    background: #888;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.banner .num li.on {
+    background: #F60;
+}
+
+.banner .btn {
+    width: 30px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Microsoft YaHei";
+    display: none;
+}
+
+.banner:hover .btn {
+    display: block;
+}
+
+.banner .btn_l {
+    left: 0;
+}
+
+.banner .btn_r {
+    right: 0;
+}
+
+.bannercss {
+    margin: 100px auto;
+    border: 5px solid #000;
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannercss .img {
+    width: 5000px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.bannercss .img li {
+    float: left;
+
+}
+
+.bannercss .img li div {
+    width: 550px;
+    height: 300px;
+    font-size: 1.5em;
+}
+
+.bannercss .num {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+.bannercss .num li {
+    width: 10px;
+    height: 10px;
+    background: #888;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.bannercss .num li.on {
+    background: #F60;
+}
+
+.bannercss .btn {
+    width: 30px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-family: "宋体";
+    display: none;
+}
+
+.bannercss:hover .btn {
+    display: block;
+}
+
+.bannercss .btn_l {
+    left: 0;
+}
+
+.bannercss .btn_r {
+    right: 0;
+}
