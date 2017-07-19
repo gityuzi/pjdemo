@@ -1,0 +1,39 @@
+li {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  top: 60px;
+  left: 100px;
+}
+.container #firstrow #secondrow {
+  position: absolute;
+  left: 60px;
+  top: 0;
+}
+.container #firstrow #secondrow li {
+  display: none;
+}
+.container #firstrow #secondrow #thirdrow {
+  position: absolute;
+  left: 60px;
+  top: 0;
+}
+
+.container #firstrow:hover #secondrow li {
+  display: block;
+}
+.container #firstrow:hover #secondrow #thirdrow li {
+  display: none;
+}
+
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container {
+    width: 400px;
+    margin-left: 200px;
+}
+ul {
+    list-style: none;
+}
+
+.container li {
+    /*首先 所有的li都是相对定位的 也就是相对于 他父级 ul*/
+    position: relative;
+    top: 40px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.firstrow {
+    background: #16A9B6;
+}
+
+.firstrow:hover {
+    background: red;
+}
+
+.secondrow {
+    /*给二级菜单的ul一个绝对定位 并且初始是隐藏的*/
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: none;
+}
+
+.firstrow:hover .secondrow {
+    display: block;
+    /*当鼠标移入一级菜单   当前菜单下的 ul显示*/
+}
+
+.firstrow:hover .secondrow li:hover {
+    background: blue;
+}
+
+.thirdrow {
+    /*同理让三级菜单绝对定位*/
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+}
+
+.secondrow li:hover .thirdrow {
+    /*当鼠标移入当前的二级菜单   它下面的三级菜单ul显示*/
+    display: block;
+}
+
+
+.container2 {
+    position: relative;
+    left: 600px;
+    top: -80px;
+    width: 800px;
+    background-color: #eeeeee;
+    border: 1px solid #000000;
+}
+
+.container2 .first-row {
+    display: inline-block;
+    position: relative;
+}
+
+.container2 .first-row .second-row .third-row li {
+    position: absolute;
+    left: 100px;
+    top: -40px;
+}
